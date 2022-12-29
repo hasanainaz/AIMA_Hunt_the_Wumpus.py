@@ -55,7 +55,7 @@ while True:
     if sensors[4] == "Scream":
         print( "Wumpus Killed" )
     
-    # find and shoot the wumpus <-------------------------------- SOLVE this at the end
+    # find and shoot the wumpus <-------------------------------- SOLVE this part at the end by using only Python code without any external library
                     # cnts.go_to( LineSight_x , LineSight_y )
                 # cnts.shoot_at( WumpusLocation_x , WumpusLocation_y )
                 # continue
@@ -65,7 +65,7 @@ while True:
     frontier.sort(key=lambda k: abs(k[0]-x) + abs(k[1]-y)  )
     destination = [-1,0]
     for d in frontier:
-        # <-------------------------------- if the null hypothesis is unsatisfiable (SOLVE this line first) !!!
+        # <-------------------------------- SOLVE this line first by checking whether the null hypothesis is unsatisfiable using the SymPy library.
             destination = d
             break
     # use cnts.action( "TurnRight" ), cnts.action( "TurnLeft" ), and response = cnts.action( "MoveForward" ), OR:
