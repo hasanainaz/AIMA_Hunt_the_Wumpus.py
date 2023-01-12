@@ -75,3 +75,9 @@ while True:
     time.sleep(0.2)
 ```
 
+### Solution
+
+A hybrid-agent implementation based on AIMA Global 4th edition (p259) is included in the src file.
+
+
+
