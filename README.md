@@ -77,7 +77,7 @@ while True:
 
 ### Solution
 
-A hybrid-agent implementation based on AIMA Global 4th edition (p259) is included in the src file.
+A hybrid-agent implementation based on AIMA Global 4th edition (p259) is included in the Jupyter ipynb file.
 
 
 
